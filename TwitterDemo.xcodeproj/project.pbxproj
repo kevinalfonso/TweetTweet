@@ -74,6 +74,13 @@
 			name = API;
 			sourceTree = "<group>";
 		};
+		0A40F6D21E63E5EC007C5754 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		0A7CD41F1E5E332200E61CE4 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +102,7 @@
 		0A7CD42A1E5E332300E61CE4 /* TwitterDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0A40F6D21E63E5EC007C5754 /* Views */,
 				0A40F6C91E613827007C5754 /* API */,
 				0A40F6C81E613806007C5754 /* View Controllers */,
 				0A40F6C71E6137FE007C5754 /* Models */,
