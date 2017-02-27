@@ -63,7 +63,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="vmH-Ho-u5C"/>
+                    <navigationItem key="navigationItem" id="vmH-Ho-u5C">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="49D-am-U3O">
+                            <connections>
+                                <action selector="onLogoutButton:" destination="84Y-de-jgV" id="1RZ-0K-vae"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NTV-CB-SYi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -72,7 +78,7 @@
         <!--Navigation Controller-->
         <scene sceneID="3Mm-AX-HT1">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2V6-pz-Jtj" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="TweetsNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="2V6-pz-Jtj" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="lx6-tu-7Si">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
